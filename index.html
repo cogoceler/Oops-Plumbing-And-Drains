@@ -1,1 +1,1347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="google-site-verification" content="Y97W5liuiKjG3gOGpFWaHRFitq8r0uXbUABsomj9utk" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oops Plumbing And Drains | Plumber in Memphis | (901) 456-2263</title>
+<meta name="description" content="Oops Plumbing And Drains — Memphis' trusted plumber for drain cleaning & emergency repairs. Licensed, insured, 24/7 service. Call (901) 456-2263 for a free estimate.">
+<meta property="og:title" content="Oops Plumbing And Drains | Memphis Plumber">
+<meta property="og:description" content="Professional plumbing & drain services in Memphis, TN. Licensed & insured. 24/7 emergency response. Free estimates.">
+<meta property="og:image" content="https://placehold.co/1200x630/1A3C5E/F5A623?text=Oops+Plumbing+And+Drains">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Plumber",
+  "name": "Oops Plumbing And Drains",
+  "url": "",
+  "telephone": "+19014562263",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Memphis",
+    "addressRegion": "TN",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 35.19095200,
+    "longitude": -89.91401900
+  },
+  "openingHours": "Mo-Su 00:00-23:59",
+  "priceRange": "$$",
+  "description": "Professional plumbing and drain services in Memphis, TN. Available 24/7 for emergency plumbing repairs, drain cleaning, water heater installation and more.",
+  "areaServed": {
+    "@type": "City",
+    "name": "Memphis"
+  }
+}
+</script>
+<style>
+  :root {
+    --navy: #1A3C5E;
+    --navy-dark: #112840;
+    --navy-light: #234e7a;
+    --amber: #F5A623;
+    --amber-dark: #d4891a;
+    --bg: #F9FAFB;
+    --text: #1F2937;
+    --text-light: #6B7280;
+    --white: #ffffff;
+    --card-shadow: 0 4px 24px rgba(26,60,94,0.10);
+    --radius: 12px;
+  }
 
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    overflow-x: hidden;
+  }
+
+  /* ── NOISE TEXTURE OVERLAY ── */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.02'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* ── NAVIGATION ── */
+  #navbar {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    padding: 18px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background 0.35s ease, box-shadow 0.35s ease, padding 0.3s ease;
+    background: transparent;
+  }
+
+  #navbar.scrolled {
+    background: var(--navy-dark);
+    box-shadow: 0 2px 24px rgba(0,0,0,0.25);
+    padding: 12px 40px;
+  }
+
+  .nav-logo {
+    font-weight: 800;
+    font-size: 1.25rem;
+    color: var(--white);
+    text-decoration: none;
+    letter-spacing: -0.3px;
+    line-height: 1.2;
+  }
+
+  .nav-logo span { color: var(--amber); }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+  }
+
+  .nav-links a {
+    color: rgba(255,255,255,0.85);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+
+  .nav-links a:hover { color: var(--amber); }
+
+  .btn-nav {
+    background: var(--amber);
+    color: var(--navy-dark) !important;
+    font-weight: 700 !important;
+    padding: 10px 22px;
+    border-radius: 50px;
+    transition: background 0.2s, transform 0.2s !important;
+  }
+
+  .btn-nav:hover { background: var(--amber-dark) !important; transform: scale(1.04); }
+
+  /* HAMBURGER */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 4px;
+    background: none;
+    border: none;
+  }
+
+  .hamburger span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: var(--white);
+    border-radius: 2px;
+    transition: all 0.3s;
+  }
+
+  /* MOBILE MENU */
+  .mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: var(--navy-dark);
+    z-index: 999;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .mobile-menu.open { display: flex; }
+
+  .mobile-menu a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .mobile-menu a:hover { color: var(--amber); }
+
+  .mobile-close {
+    position: absolute;
+    top: 20px; right: 24px;
+    font-size: 2rem;
+    color: var(--white);
+    cursor: pointer;
+    background: none;
+    border: none;
+    line-height: 1;
+  }
+
+  /* ── HERO ── */
+  #hero {
+    min-height: 100vh;
+    background:
+      linear-gradient(135deg, rgba(17,40,64,0.93) 0%, rgba(26,60,94,0.85) 60%, rgba(245,166,35,0.15) 100%),
+      url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M0 0h40v40H0V0zm40 40h40v40H40V40zm0-40h2l-2 2V0zm0 4l4-4h2l-6 6V4zm0 4l8-8h2L40 10V8zm0 4L52 0h2L40 14v-2zm0 4L56 0h2L40 18v-2zm0 4L60 0h2L40 22v-2zm0 4L64 0h2L40 26v-2zm0 4L68 0h2L40 30v-2zm0 4L72 0h2L40 34v-2zm0 4L76 0h2L40 38v-2zm0 4L80 0v2L42 40h-2zm4 0L80 4v2L46 40h-2zm4 0L80 8v2L50 40h-2zm4 0L80 12v2L54 40h-2zm4 0L80 16v2L58 40h-2zm4 0L80 20v2L62 40h-2zm4 0L80 24v2L66 40h-2zm4 0L80 28v2L70 40h-2zm4 0L80 32v2L74 40h-2zm4 0L80 36v2L78 40h-2zm4 0L80 40v0h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-size: cover, 80px 80px;
+    background-position: center, 0 0;
+    display: flex;
+    align-items: center;
+    padding: 120px 40px 80px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Pipe accent lines */
+  #hero::after {
+    content: '';
+    position: absolute;
+    right: -60px; top: 50%;
+    transform: translateY(-50%);
+    width: 500px; height: 500px;
+    border: 2px solid rgba(245,166,35,0.12);
+    border-radius: 50%;
+    pointer-events: none;
+  }
+
+  .hero-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(245,166,35,0.15);
+    border: 1px solid rgba(245,166,35,0.4);
+    color: var(--amber);
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border-radius: 50px;
+    margin-bottom: 24px;
+  }
+
+  .hero-badge::before {
+    content: '';
+    width: 6px; height: 6px;
+    background: var(--amber);
+    border-radius: 50%;
+    animation: pulse 1.8s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(1.5); }
+  }
+
+  #hero h1 {
+    font-size: clamp(2.4rem, 5vw, 4.2rem);
+    font-weight: 800;
+    color: var(--white);
+    line-height: 1.1;
+    margin-bottom: 16px;
+    letter-spacing: -1px;
+  }
+
+  #hero h1 em {
+    font-style: normal;
+    color: var(--amber);
+  }
+
+  .hero-sub {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    color: rgba(255,255,255,0.75);
+    font-weight: 300;
+    margin-bottom: 40px;
+    max-width: 560px;
+    line-height: 1.7;
+  }
+
+  .hero-ctas {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary {
+    background: var(--amber);
+    color: var(--navy-dark);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 16px 32px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 20px rgba(245,166,35,0.4);
+  }
+
+  .btn-primary:hover {
+    background: var(--amber-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 28px rgba(245,166,35,0.5);
+  }
+
+  .btn-outline {
+    background: transparent;
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 16px 32px;
+    border-radius: 50px;
+    border: 2px solid rgba(255,255,255,0.4);
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: border-color 0.2s, background 0.2s, transform 0.2s;
+  }
+
+  .btn-outline:hover {
+    border-color: var(--white);
+    background: rgba(255,255,255,0.08);
+    transform: translateY(-2px);
+  }
+
+  /* ── TRUST BAR ── */
+  #trust {
+    background: var(--navy-dark);
+    padding: 28px 40px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .trust-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+
+  .trust-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .trust-icon {
+    width: 44px; height: 44px;
+    background: rgba(245,166,35,0.12);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border: 1px solid rgba(245,166,35,0.25);
+  }
+
+  .trust-icon svg { width: 22px; height: 22px; }
+
+  .trust-text strong {
+    display: block;
+    color: var(--white);
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+
+  .trust-text span {
+    color: rgba(255,255,255,0.5);
+    font-size: 0.75rem;
+  }
+
+  /* ── SECTION BASE ── */
+  section {
+    padding: 90px 40px;
+  }
+
+  .section-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .section-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 12px;
+  }
+
+  .section-title {
+    font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+    font-weight: 800;
+    color: var(--navy);
+    line-height: 1.15;
+    letter-spacing: -0.5px;
+    margin-bottom: 16px;
+  }
+
+  .section-sub {
+    font-size: 1rem;
+    color: var(--text-light);
+    max-width: 520px;
+    line-height: 1.7;
+    margin-bottom: 56px;
+  }
+
+  /* ── SERVICES ── */
+  #services { background: var(--bg); }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .service-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 32px 28px;
+    box-shadow: var(--card-shadow);
+    border: 1px solid rgba(26,60,94,0.07);
+    transition: transform 0.28s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.28s ease;
+    cursor: default;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .service-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--amber), var(--navy-light));
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+
+  .service-card:hover { transform: translateY(-6px); box-shadow: 0 16px 48px rgba(26,60,94,0.15); }
+  .service-card:hover::before { transform: scaleX(1); }
+
+  .service-icon {
+    width: 52px; height: 52px;
+    background: linear-gradient(135deg, rgba(26,60,94,0.08), rgba(245,166,35,0.08));
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .service-icon svg { width: 26px; height: 26px; }
+
+  .service-card h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 8px;
+  }
+
+  .service-card p {
+    font-size: 0.875rem;
+    color: var(--text-light);
+    line-height: 1.6;
+  }
+
+  /* ── WHY US ── */
+  #why { background: var(--navy-dark); }
+
+  .why-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    align-items: center;
+  }
+
+  .why-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .why-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    color: rgba(255,255,255,0.85);
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .check-icon {
+    width: 26px; height: 26px;
+    background: rgba(245,166,35,0.15);
+    border: 1.5px solid var(--amber);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .check-icon svg { width: 12px; height: 12px; }
+
+  .why-list li strong { color: var(--white); display: block; font-weight: 600; }
+
+  .why-stat {
+    background: linear-gradient(135deg, rgba(245,166,35,0.12), rgba(245,166,35,0.04));
+    border: 1px solid rgba(245,166,35,0.2);
+    border-radius: 20px;
+    padding: 48px 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .why-stat::before {
+    content: '';
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 200px; height: 200px;
+    background: radial-gradient(circle, rgba(245,166,35,0.1) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+
+  .stat-num {
+    font-size: 5rem;
+    font-weight: 800;
+    color: var(--amber);
+    line-height: 1;
+    letter-spacing: -3px;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .stat-label {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--white);
+    margin-bottom: 16px;
+  }
+
+  .stat-quote {
+    font-size: 0.875rem;
+    color: rgba(255,255,255,0.5);
+    line-height: 1.6;
+    font-style: italic;
+  }
+
+  .why-grid .section-title { color: var(--white); }
+  .why-grid .section-sub { color: rgba(255,255,255,0.55); }
+
+  /* ── TESTIMONIALS ── */
+  #testimonials { background: var(--bg); }
+
+  .testi-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .testi-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 32px 28px;
+    box-shadow: var(--card-shadow);
+    border: 1px solid rgba(26,60,94,0.07);
+    transition: transform 0.25s ease;
+  }
+
+  .testi-card:hover { transform: translateY(-4px); }
+
+  .stars {
+    color: #FBBF24;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+  }
+
+  .testi-text {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    line-height: 1.7;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+
+  .testi-author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .testi-avatar {
+    width: 42px; height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--white);
+    flex-shrink: 0;
+  }
+
+  .testi-name { font-weight: 700; font-size: 0.9rem; color: var(--navy); }
+  .testi-source { font-size: 0.75rem; color: var(--text-light); }
+
+  /* ── MAP ── */
+  #area { background: var(--white); padding: 90px 40px; }
+
+  .area-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.6fr;
+    gap: 56px;
+    align-items: center;
+  }
+
+  .map-frame {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 40px rgba(26,60,94,0.15);
+    border: 3px solid var(--amber);
+    height: 380px;
+  }
+
+  .map-frame iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+  }
+
+  .area-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 24px;
+  }
+
+  .area-tag {
+    background: rgba(26,60,94,0.07);
+    color: var(--navy);
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 50px;
+    border: 1px solid rgba(26,60,94,0.12);
+  }
+
+  /* ── CONTACT ── */
+  #contact { background: var(--bg); }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+    align-items: start;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 6px;
+    letter-spacing: 0.3px;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 13px 18px;
+    border: 1.5px solid rgba(26,60,94,0.15);
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    color: var(--text);
+    background: var(--white);
+    transition: border-color 0.2s, box-shadow 0.2s;
+    outline: none;
+  }
+
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    border-color: var(--amber);
+    box-shadow: 0 0 0 3px rgba(245,166,35,0.15);
+  }
+
+  .form-group textarea { resize: vertical; min-height: 120px; }
+
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+  .btn-submit {
+    width: 100%;
+    background: var(--amber);
+    color: var(--navy-dark);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+    margin-top: 4px;
+  }
+
+  .btn-submit:hover { background: var(--amber-dark); transform: translateY(-1px); }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 8px;
+  }
+
+  .contact-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 28px 24px;
+    box-shadow: var(--card-shadow);
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    border-left: 4px solid var(--amber);
+    transition: transform 0.2s;
+  }
+
+  .contact-card:hover { transform: translateX(4px); }
+
+  .contact-card-icon {
+    width: 48px; height: 48px;
+    background: linear-gradient(135deg, var(--navy), var(--navy-light));
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .contact-card-icon svg { width: 22px; height: 22px; }
+
+  .contact-card-text strong {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--text-light);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+  }
+
+  .contact-card-text a,
+  .contact-card-text span {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--navy);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .contact-card-text a:hover { color: var(--amber); }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--navy-dark);
+    padding: 56px 40px 32px;
+  }
+
+  .footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    margin-bottom: 32px;
+  }
+
+  .footer-brand-name {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 12px;
+  }
+
+  .footer-brand-name span { color: var(--amber); }
+
+  .footer-tagline {
+    font-size: 0.875rem;
+    color: rgba(255,255,255,0.45);
+    line-height: 1.6;
+    max-width: 300px;
+  }
+
+  .footer-col h4 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--amber);
+    margin-bottom: 16px;
+  }
+
+  .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+
+  .footer-col ul a {
+    color: rgba(255,255,255,0.55);
+    text-decoration: none;
+    font-size: 0.875rem;
+    transition: color 0.2s;
+  }
+
+  .footer-col ul a:hover { color: var(--white); }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .footer-bottom p {
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.35);
+  }
+
+  .footer-bottom a { color: var(--amber); text-decoration: none; font-weight: 600; }
+  .footer-bottom a:hover { text-decoration: underline; }
+
+  /* ── FADE IN ── */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .fade-in:nth-child(2) { transition-delay: 0.1s; }
+  .fade-in:nth-child(3) { transition-delay: 0.2s; }
+  .fade-in:nth-child(4) { transition-delay: 0.3s; }
+  .fade-in:nth-child(5) { transition-delay: 0.4s; }
+  .fade-in:nth-child(6) { transition-delay: 0.5s; }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 768px) {
+    #navbar { padding: 16px 24px; }
+    #navbar.scrolled { padding: 10px 24px; }
+    .nav-links { display: none; }
+    .hamburger { display: flex; }
+    section { padding: 64px 24px; }
+    #hero { padding: 100px 24px 64px; }
+    #trust { padding: 24px; }
+    .trust-inner { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+    .services-grid { grid-template-columns: 1fr; gap: 16px; }
+    .why-grid { grid-template-columns: 1fr; gap: 40px; }
+    .testi-grid { grid-template-columns: 1fr; gap: 16px; }
+    .area-grid { grid-template-columns: 1fr; gap: 32px; }
+    .contact-grid { grid-template-columns: 1fr; gap: 40px; }
+    .form-row { grid-template-columns: 1fr; }
+    .footer-top { grid-template-columns: 1fr; gap: 28px; }
+    .footer-bottom { flex-direction: column; text-align: center; }
+    .hero-ctas { flex-direction: column; }
+    .btn-primary, .btn-outline { width: 100%; justify-content: center; }
+  }
+
+  @media (max-width: 480px) {
+    .trust-inner { grid-template-columns: 1fr; }
+    .services-grid { grid-template-columns: 1fr; }
+    .testi-grid { grid-template-columns: 1fr; }
+    #hero h1 { font-size: 2rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" id="mobileClose" aria-label="Close menu">✕</button>
+  <a href="#hero" onclick="closeMobile()">Home</a>
+  <a href="#services" onclick="closeMobile()">Services</a>
+  <a href="#why" onclick="closeMobile()">About</a>
+  <a href="#contact" onclick="closeMobile()">Contact</a>
+  <a href="tel:+19014562263" class="btn-primary" style="font-size:1.1rem;padding:14px 36px;">📞 Call Now</a>
+</div>
+
+<!-- NAVBAR -->
+<header>
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <a href="#hero" class="nav-logo">Oops <span>Plumbing</span></a>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#why">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="tel:+19014562263" class="btn-nav">📞 Call Now</a></li>
+    </ul>
+    <button class="hamburger" id="hamburgerBtn" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="hero" role="banner">
+    <div class="hero-inner">
+      <div class="hero-badge">⚡ 24/7 Emergency Service Available</div>
+      <h1>Memphis' Trusted<br><em>Plumbing & Drains</em><br>Experts</h1>
+      <p class="hero-sub">From clogged drains to full plumbing installations — <strong style="color:#fff;">Oops Plumbing And Drains</strong> delivers fast, reliable service across Memphis, TN. Licensed, insured, and ready when you need us most.</p>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn-primary">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/></svg>
+          Get a Free Quote
+        </a>
+        <a href="tel:+19014562263" class="btn-outline">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.99 10.5 19.79 19.79 0 0 1 1.93 1.88a2 2 0 0 1 1.998-2.18H6.5a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 7.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          (901) 456-2263
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <div id="trust" role="complementary" aria-label="Trust signals">
+    <div class="trust-inner">
+      <div class="trust-item fade-in">
+        <div class="trust-icon">
+          <svg fill="none" stroke="#F5A623" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div class="trust-text">
+          <strong>Licensed & Insured</strong>
+          <span>Fully certified professionals</span>
+        </div>
+      </div>
+      <div class="trust-item fade-in">
+        <div class="trust-icon">
+          <svg fill="none" stroke="#F5A623" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        </div>
+        <div class="trust-text">
+          <strong>24/7 Emergency Service</strong>
+          <span>We answer every call</span>
+        </div>
+      </div>
+      <div class="trust-item fade-in">
+        <div class="trust-icon">
+          <svg fill="none" stroke="#F5A623" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+        </div>
+        <div class="trust-text">
+          <strong>Free Estimates</strong>
+          <span>No surprise charges</span>
+        </div>
+      </div>
+      <div class="trust-item fade-in">
+        <div class="trust-icon">
+          <svg fill="none" stroke="#F5A623" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <div class="trust-text">
+          <strong>Local Memphis Experts</strong>
+          <span>Proudly serving our community</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="section-inner">
+      <p class="section-label fade-in">What We Do</p>
+      <h2 class="section-title fade-in">Complete Plumbing<br>Services in Memphis</h2>
+      <p class="section-sub fade-in">From routine maintenance to emergency repairs, our licensed plumbers handle every job with precision and care.</p>
+      <div class="services-grid">
+
+        <article class="service-card fade-in">
+          <div class="service-icon">
+            <svg fill="none" stroke="#1A3C5E" stroke-width="1.8" viewBox="0 0 24 24"><path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z"/><path d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.99 3 6.48c0 4.05-3.06 7-7 7C10.04 23 7 20.05 7 16c0-2.25 1.01-4.2 2.56-5.4z"/></svg>
+          </div>
+          <h3>Drain Cleaning</h3>
+          <p>Fast, thorough clearing of clogs and blockages in all drain types using professional-grade equipment.</p>
+        </article>
+
+        <article class="service-card fade-in">
+          <div class="service-icon">
+            <svg fill="none" stroke="#1A3C5E" stroke-width="1.8" viewBox="0 0 24 24"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18"/></svg>
+          </div>
+          <h3>Water Heater Services</h3>
+          <p>Installation, repair, and replacement of tank and tankless water heaters for consistent hot water supply.</p>
+        </article>
+
+        <article class="service-card fade-in">
+          <div class="service-icon">
+            <svg fill="none" stroke="#1A3C5E" stroke-width="1.8" viewBox="0 0 24 24"><path d="M12 22V12m0 0C12 7 7 5 7 5s5 2 5 7zm0 0c0-5 5-7 5-7s-5 2-5 7"/><path d="M5 12H2M22 12h-3M12 5V2"/></svg>
+          </div>
+          <h3>Leak Detection & Repair</h3>
+          <p>Advanced leak detection to find hidden water leaks and prevent costly structural water damage.</p>
+        </article>
+
+        <article class="service-card fade-in">
+          <div class="service-icon">
+            <svg fill="none" stroke="#1A3C5E" stroke-width="1.8" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01M8 6h8M8 10h8M8 14h4"/></svg>
+          </div>
+          <h3>Pipe Installation & Repair</h3>
+          <p>Full-service pipe work including replacement of corroded, burst, or damaged pipes throughout your property.</p>
+        </article>
+
+        <article class="service-card fade-in">
+          <div class="service-icon">
+            <svg fill="none" stroke="#1A3C5E" stroke-width="1.8" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <h3>Bathroom & Kitchen Plumbing</h3>
+          <p>Fixtures, faucets, sinks, toilets, and full bathroom remodel plumbing handled professionally.</p>
+        </article>
+
+        <article class="service-card fade-in">
+          <div class="service-icon">
+            <svg fill="none" stroke="#1A3C5E" stroke-width="1.8" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+          </div>
+          <h3>Emergency Plumbing</h3>
+          <p>24/7 rapid response for burst pipes, flooding, sewage backups, and any urgent plumbing crisis.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section id="why">
+    <div class="section-inner">
+      <div class="why-grid">
+        <div>
+          <p class="section-label fade-in">Why Choose Us</p>
+          <h2 class="section-title fade-in">Memphis' Most Reliable<br>Plumbing Team</h2>
+          <p class="section-sub fade-in" style="color:rgba(255,255,255,0.55)">We don't just fix pipes — we build trust with every job, every visit, every customer.</p>
+          <ul class="why-list">
+            <li class="fade-in">
+              <div class="check-icon"><svg fill="none" stroke="#F5A623" stroke-width="3" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <div><strong>Transparent, Upfront Pricing</strong>No hidden fees. You know the cost before we start.</div>
+            </li>
+            <li class="fade-in">
+              <div class="check-icon"><svg fill="none" stroke="#F5A623" stroke-width="3" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <div><strong>Rapid Response Times</strong>On-site fast — because your time and home matter.</div>
+            </li>
+            <li class="fade-in">
+              <div class="check-icon"><svg fill="none" stroke="#F5A623" stroke-width="3" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <div><strong>Fully Licensed & Insured</strong>Every technician is certified, trained, and background-checked.</div>
+            </li>
+            <li class="fade-in">
+              <div class="check-icon"><svg fill="none" stroke="#F5A623" stroke-width="3" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <div><strong>Workmanship Guarantee</strong>We stand behind every repair with a satisfaction guarantee.</div>
+            </li>
+            <li class="fade-in">
+              <div class="check-icon"><svg fill="none" stroke="#F5A623" stroke-width="3" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <div><strong>Local Memphis Roots</strong>We live here too. Community is at the heart of everything we do.</div>
+            </li>
+          </ul>
+        </div>
+        <div class="why-stat fade-in">
+          <span class="stat-num">500+</span>
+          <p class="stat-label">Happy Memphis Customers</p>
+          <p class="stat-quote">"Oops Plumbing came out within the hour and fixed our burst pipe before it caused major damage. Absolutely recommend!"</p>
+          <br>
+          <a href="tel:+19014562263" class="btn-primary" style="margin-top:8px;justify-content:center;">Call Us Today</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials">
+    <div class="section-inner">
+      <p class="section-label fade-in">Google Reviews</p>
+      <h2 class="section-title fade-in">What Our Customers Say</h2>
+      <p class="section-sub fade-in">Real experiences from real Memphis homeowners and businesses.</p>
+      <div class="testi-grid">
+
+        <article class="testi-card fade-in">
+          <div class="stars">★★★★★</div>
+          <p class="testi-text">"Had a major drain backup late on a Friday evening and called Oops Plumbing. They were at my door within 45 minutes. Professional, clean, and had the issue fixed same night. Will be calling them for everything going forward."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:linear-gradient(135deg,#1A3C5E,#234e7a)">DM</div>
+            <div>
+              <p class="testi-name">David M.</p>
+              <p class="testi-source">Google Review · Memphis, TN</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="testi-card fade-in">
+          <div class="stars">★★★★★</div>
+          <p class="testi-text">"Oops Plumbing replaced our water heater and did a full bathroom pipe inspection. The team was courteous, on time, and the pricing was honest. No upsells, just great work. Highly recommend to anyone in Memphis."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:linear-gradient(135deg,#d4891a,#F5A623)">RJ</div>
+            <div>
+              <p class="testi-name">Rachel J.</p>
+              <p class="testi-source">Google Review · Germantown, TN</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="testi-card fade-in">
+          <div class="stars">★★★★★</div>
+          <p class="testi-text">"These guys are the real deal. Fast response, fair quotes, and quality repairs that last. We've used them twice now — once for a leak and once for drain cleaning. Both times top notch service. Oops is our go-to plumber now."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:linear-gradient(135deg,#1f7a4a,#2ea868)">TC</div>
+            <div>
+              <p class="testi-name">Thomas C.</p>
+              <p class="testi-source">Google Review · Bartlett, TN</p>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE AREA -->
+  <section id="area">
+    <div class="section-inner">
+      <div class="area-grid">
+        <div>
+          <p class="section-label fade-in">Where We Work</p>
+          <h2 class="section-title fade-in">Serving Memphis<br>& Surrounding Areas</h2>
+          <p class="section-sub fade-in" style="margin-bottom:24px;">Oops Plumbing And Drains proudly serves homeowners and businesses throughout Memphis, TN and neighboring communities. If you're unsure whether we cover your area, just give us a call.</p>
+          <div class="area-tags fade-in">
+            <span class="area-tag">Memphis, TN</span>
+            <span class="area-tag">Germantown</span>
+            <span class="area-tag">Bartlett</span>
+            <span class="area-tag">Collierville</span>
+            <span class="area-tag">Cordova</span>
+            <span class="area-tag">Midtown Memphis</span>
+            <span class="area-tag">East Memphis</span>
+            <span class="area-tag">Southaven, MS</span>
+          </div>
+          <br>
+          <a href="tel:+19014562263" class="btn-primary fade-in" style="display:inline-flex;">📍 Confirm Your Area</a>
+        </div>
+        <div class="map-frame fade-in">
+          <iframe
+            src="https://maps.google.com/maps?q=35.19095200,-89.91401900&z=13&output=embed"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Oops Plumbing And Drains Location Map">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-inner">
+      <p class="section-label fade-in">Get In Touch</p>
+      <h2 class="section-title fade-in">Request a Free Quote</h2>
+      <p class="section-sub fade-in">Fill out the form and we'll get back to you shortly — or call us directly for immediate assistance.</p>
+      <div class="contact-grid">
+        <form action="mailto:contact@oopsplumbing.com" method="post" enctype="text/plain" novalidate>
+          <div class="form-row fade-in">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="John Smith" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="(901) 000-0000" required>
+            </div>
+          </div>
+          <div class="form-group fade-in">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@email.com">
+          </div>
+          <div class="form-group fade-in">
+            <label for="service">Service Needed</label>
+            <select id="service" name="service">
+              <option value="">Select a service...</option>
+              <option>Drain Cleaning</option>
+              <option>Water Heater Service</option>
+              <option>Leak Detection & Repair</option>
+              <option>Pipe Installation & Repair</option>
+              <option>Bathroom / Kitchen Plumbing</option>
+              <option>Emergency Plumbing</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group fade-in">
+            <label for="message">Describe the Issue</label>
+            <textarea id="message" name="message" placeholder="Tell us what's going on..."></textarea>
+          </div>
+          <button type="submit" class="btn-submit fade-in">🔧 Submit Free Quote Request</button>
+        </form>
+
+        <div class="contact-info">
+          <a href="tel:+19014562263" class="contact-card fade-in" style="text-decoration:none;">
+            <div class="contact-card-icon">
+              <svg fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.99 10.5 19.79 19.79 0 0 1 1.93 1.88a2 2 0 0 1 1.998-2.18H6.5a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 7.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="contact-card-text">
+              <strong>Phone</strong>
+              <a href="tel:+19014562263">(901) 456-2263</a>
+            </div>
+          </a>
+
+          <div class="contact-card fade-in">
+            <div class="contact-card-icon">
+              <svg fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div class="contact-card-text">
+              <strong>Email</strong>
+              <a href="mailto:contact@oopsplumbing.com">contact@oopsplumbing.com</a>
+            </div>
+          </div>
+
+          <div class="contact-card fade-in">
+            <div class="contact-card-icon">
+              <svg fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="contact-card-text">
+              <strong>Location</strong>
+              <span>Memphis, TN</span>
+            </div>
+          </div>
+
+          <div class="contact-card fade-in">
+            <div class="contact-card-icon">
+              <svg fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <div class="contact-card-text">
+              <strong>Hours</strong>
+              <span>24 / 7 — Always Available</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <p class="footer-brand-name">Oops <span>Plumbing</span> And Drains</p>
+        <p class="footer-tagline">Memphis' trusted plumbing experts. Licensed, insured, and available 24/7 for all your residential and commercial plumbing needs.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#why">About Us</a></li>
+          <li><a href="#area">Service Area</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Drain Cleaning</a></li>
+          <li><a href="#services">Water Heaters</a></li>
+          <li><a href="#services">Leak Repair</a></li>
+          <li><a href="#services">Pipe Services</a></li>
+          <li><a href="#services">Emergency Plumbing</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Oops Plumbing And Drains. All rights reserved. Memphis, TN.</p>
+      <p>Website by <a href="https://cogoceler.com" target="_blank" rel="noopener">CoGoCeler</a> — Professional Websites for Plumbers</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Year
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Sticky Nav
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 60);
+  });
+
+  // Mobile menu
+  const hamburgerBtn = document.getElementById('hamburgerBtn');
+  const mobileMenu = document.getElementById('mobileMenu');
+  const mobileClose = document.getElementById('mobileClose');
+
+  hamburgerBtn.addEventListener('click', () => mobileMenu.classList.add('open'));
+  mobileClose.addEventListener('click', () => mobileMenu.classList.remove('open'));
+
+  function closeMobile() { mobileMenu.classList.remove('open'); }
+
+  // Fade-in on scroll
+  const fadeEls = document.querySelectorAll('.fade-in');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+  fadeEls.forEach(el => observer.observe(el));
+
+  // Smooth anchor nav
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const target = document.querySelector(a.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+</script>
+</body>
+</html>
